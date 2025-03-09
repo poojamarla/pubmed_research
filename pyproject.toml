@@ -1,0 +1,18 @@
+[project]
+name = "pubmed-research-fetcher"
+version = "0.1.0"
+description = "Fetch research papers from PubMed API"
+authors = [
+    {name = "PoojaMarlashikari"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "argparse (>=1.4.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
